@@ -10,7 +10,7 @@ class Install
      * @var array
      */
     protected static $pathRelation = array(
-        'config/plugin/webmansoft/admin' => 'config/plugin/webmansoft/admin',
+        'webmansoft/admin' => 'webmansoft/admin',
     );
 
     /**
