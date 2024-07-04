@@ -10,7 +10,7 @@ class Install
      * @var array
      */
     protected static $pathRelation = array(
-        'webmansoft/admin' => 'webmansoft/admin',
+        'plugin/admin' => 'plugin/admin'
     );
 
     /**
@@ -46,7 +46,6 @@ class Install
             }
 
             copy_dir(__DIR__ . "/$source", base_path() . "/$dest");
-            echo "Create $dest";
         }
     }
 
